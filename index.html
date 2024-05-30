@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .content {
+            padding: 1rem;
+            background-color: #fff;
+            margin: 1rem 0;
+        }
+        .projects, .reviews {
+            margin-bottom: 2rem;
+        }
+        .project, .review {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            background-color: #fff;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>John's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="projects" class="content projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Website Redesign</h3>
+                <p>Description: A complete redesign of a corporate website to improve user experience and accessibility.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: E-commerce Platform</h3>
+                <p>Description: Development of a full-fledged e-commerce platform with payment gateway integration.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: Mobile App</h3>
+                <p>Description: Creation of a cross-platform mobile app for managing personal finances.</p>
+            </div>
+        </div>
+
+        <div id="reviews" class="content reviews">
+            <h2>Reviews</h2>
+            <div class="review">
+                <h3>Client A</h3>
+                <p>Review: "John did an excellent job with our website redesign. Our users love the new look and feel."</p>
+            </div>
+            <div class="review">
+                <h3>Client B</h3>
+                <p>Review: "The e-commerce platform John built for us is robust and user-friendly. Sales have increased significantly since its launch."</p>
+            </div>
+            <div class="review">
+                <h3>Client C</h3>
+                <p>Review: "John's mobile app development skills are top-notch. The app is intuitive and performs flawlessly."</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 John's Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
